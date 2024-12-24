@@ -176,6 +176,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hono/clerk-auth@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@hono/clerk-auth@npm:2.0.0"
+  peerDependencies:
+    "@clerk/backend": ^1.0.0
+    hono: ">=3.*"
+  checksum: 10c0/3f38e04d5075867464d01e65bb3e5f7a15b208b6147d14dbdd13b9a6f7f558e8e3ed665f0edf603dfbc45428d7648541c7fcc2a14bd1ed30d1ae3a361e287a32
+  languageName: node
+  linkType: hard
+
+"@hono/zod-validator@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@hono/zod-validator@npm:0.4.2"
+  peerDependencies:
+    hono: ">=3.9.0"
+    zod: ^3.19.1
+  checksum: 10c0/f9235d4aebcb0f9dc942d4a168a61f2752f16b7273665efd15ee92042d7118c7e5efd1e031339e09d2dace5c04e945f7b8edc8d5d3d36e827a4f3d0fe2448538
+  languageName: node
+  linkType: hard
+
 "@humanfs/core@npm:^0.19.1":
   version: 0.19.1
   resolution: "@humanfs/core@npm:0.19.1"
@@ -2040,8 +2060,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "finance-saas@workspace:."
   dependencies:
+    "@clerk/backend": "npm:^1.21.4"
     "@clerk/nextjs": "npm:^6.9.6"
     "@eslint/eslintrc": "npm:^3"
+    "@hono/clerk-auth": "npm:^2.0.0"
+    "@hono/zod-validator": "npm:^0.4.2"
     "@radix-ui/react-slot": "npm:^1.1.1"
     "@types/node": "npm:^20"
     "@types/react": "npm:^19"
@@ -2050,6 +2073,7 @@ __metadata:
     clsx: "npm:^2.1.1"
     eslint: "npm:^9"
     eslint-config-next: "npm:15.1.2"
+    hono: "npm:^4.6.14"
     lucide-react: "npm:^0.469.0"
     next: "npm:15.1.2"
     postcss: "npm:^8"
@@ -2059,6 +2083,7 @@ __metadata:
     tailwindcss: "npm:^3.4.1"
     tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:^5"
+    zod: "npm:^3.24.1"
   languageName: unknown
   linkType: soft
 
@@ -2335,6 +2360,13 @@ __metadata:
   dependencies:
     function-bind: "npm:^1.1.2"
   checksum: 10c0/3769d434703b8ac66b209a4cca0737519925bbdb61dd887f93a16372b14694c63ff4e797686d87c90f08168e81082248b9b028bad60d4da9e0d1148766f56eb9
+  languageName: node
+  linkType: hard
+
+"hono@npm:^4.6.14":
+  version: 4.6.14
+  resolution: "hono@npm:4.6.14"
+  checksum: 10c0/891e4218a65668d78838187aceadef53abdd159be919a32a07d6af79678102915c5315f589ce252d9405025ac89d6242b1e243ef9e94e8b9080f50b3c6c13eb5
   languageName: node
   linkType: hard
 
@@ -4690,5 +4722,12 @@ __metadata:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: 10c0/dceb44c28578b31641e13695d200d34ec4ab3966a5729814d5445b194933c096b7ced71494ce53a0e8820685d1d010df8b2422e5bf2cdea7e469d97ffbea306f
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.24.1":
+  version: 3.24.1
+  resolution: "zod@npm:3.24.1"
+  checksum: 10c0/0223d21dbaa15d8928fe0da3b54696391d8e3e1e2d0283a1a070b5980a1dbba945ce631c2d1eccc088fdbad0f2dfa40155590bf83732d3ac4fcca2cc9237591b
   languageName: node
   linkType: hard
